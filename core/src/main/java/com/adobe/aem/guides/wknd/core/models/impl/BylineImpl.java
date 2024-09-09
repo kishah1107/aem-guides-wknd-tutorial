@@ -18,7 +18,6 @@ import com.adobe.cq.wcm.core.components.models.Image;
 @Model(
         adaptables = {SlingHttpServletRequest.class},
         adapters = {Byline.class},
-        resourceType = {BylineImpl.RESOURCE_TYPE},
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
 public class BylineImpl implements Byline {
